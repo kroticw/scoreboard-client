@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "S3ZxDmDhI8s=",
+  "dgSpecHash": "5uO68FJ3Sog=",
   "success": true,
   "projectFilePath": "/Users/denisdavydov/chernikov/scoreboard-client/scoreboard-client.csproj",
   "expectedPackageFiles": [
@@ -34,6 +34,7 @@
     "/Users/denisdavydov/.nuget/packages/microsoft.csharp/4.3.0/microsoft.csharp.4.3.0.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/microsoft.netcore.platforms/2.1.2/microsoft.netcore.platforms.2.1.2.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/microsoft.netcore.targets/1.1.0/microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "/Users/denisdavydov/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/skiasharp/2.88.7/skiasharp.2.88.7.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/skiasharp.nativeassets.linux/2.88.7/skiasharp.nativeassets.linux.2.88.7.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/skiasharp.nativeassets.macos/2.88.7/skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",

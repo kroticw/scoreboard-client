@@ -6,9 +6,9 @@ using System.Net.Sockets;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-using broadcast_messenger_client_dotnet;
 using Microsoft.VisualBasic;
 using Newtonsoft.Json;
+using scoreboard_client;
 
 namespace connect;
 
