@@ -44,7 +44,7 @@ public class UdpTcpClient
 
     private async Task BroadcastConnectionInfo()
     {
-        IPEndPoint ipEndPoint = new IPEndPoint(IPAddress.Parse("192.168.88.255"), udpPort);
+        IPEndPoint ipEndPoint = new IPEndPoint(IPAddress.Broadcast, udpPort);
         udpClient.EnableBroadcast = true;
         Console.WriteLine("111");
         
