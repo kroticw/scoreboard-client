@@ -3,7 +3,11 @@
              x:Class="scoreboard_client.App"
              RequestedThemeVariant="Default">
              <!-- "Default" ThemeVariant follows system theme variant. "Dark" or "Light" are other available options. -->
-
+    <!-- <Application.Resources>
+        <ResourceDictionary>
+            <x:Uri x:Key="ImageBackground">file://123.png</x:Uri>
+        </ResourceDictionary>
+    </Application.Resources> -->
     <Application.Styles>
         <FluentTheme />
     </Application.Styles>

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "5uO68FJ3Sog=",
+  "dgSpecHash": "rIRl6A+OGRk=",
   "success": true,
   "projectFilePath": "/Users/denisdavydov/chernikov/scoreboard-client/scoreboard-client.csproj",
   "expectedPackageFiles": [
+    "/Users/denisdavydov/.nuget/packages/animatedimage.avalonia/1.0.7/animatedimage.avalonia.1.0.7.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/avalonia/11.0.10/avalonia.11.0.10.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/avalonia.angle.windows.natives/2.1.0.2023020321/avalonia.angle.windows.natives.2.1.0.2023020321.nupkg.sha512",
     "/Users/denisdavydov/.nuget/packages/avalonia.buildservices/0.0.29/avalonia.buildservices.0.0.29.nupkg.sha512",

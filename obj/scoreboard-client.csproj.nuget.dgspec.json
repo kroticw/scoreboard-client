@@ -43,6 +43,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AnimatedImage.Avalonia": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
             "Avalonia": {
               "target": "Package",
               "version": "[11.0.10, )"

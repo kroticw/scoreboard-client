@@ -2,6 +2,28 @@
   "version": 3,
   "targets": {
     "net8.0": {
+      "AnimatedImage.Avalonia/1.0.7": {
+        "type": "package",
+        "dependencies": {
+          "Avalonia": "11.0.0"
+        },
+        "compile": {
+          "lib/net6.0/AnimatedImage.Avalonia.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/AnimatedImage.dll": {
+            "related": ".Avalonia.xml;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/AnimatedImage.Avalonia.dll": {
+            "related": ".xml"
+          },
+          "lib/net6.0/AnimatedImage.dll": {
+            "related": ".Avalonia.xml;.xml"
+          }
+        }
+      },
       "Avalonia/11.0.10": {
         "type": "package",
         "dependencies": {
@@ -1331,6 +1353,30 @@
     }
   },
   "libraries": {
+    "AnimatedImage.Avalonia/1.0.7": {
+      "sha512": "frWmZj+j1rfq3mOifDcqPEYNPJza4z4Js2lIWlJevJpSnqa+mxtBcIzFHuTlUSUyYQBhNE9sfJhBB9qfLCKuXg==",
+      "type": "package",
+      "path": "animatedimage.avalonia/1.0.7",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "AnimatedImage.Avalonia.md",
+        "animatedimage.avalonia.1.0.7.nupkg.sha512",
+        "animatedimage.avalonia.nuspec",
+        "lib/net462/AnimatedImage.Avalonia.dll",
+        "lib/net462/AnimatedImage.Avalonia.xml",
+        "lib/net462/AnimatedImage.dll",
+        "lib/net462/AnimatedImage.xml",
+        "lib/net6.0/AnimatedImage.Avalonia.dll",
+        "lib/net6.0/AnimatedImage.Avalonia.xml",
+        "lib/net6.0/AnimatedImage.dll",
+        "lib/net6.0/AnimatedImage.xml",
+        "lib/netcoreapp3.1/AnimatedImage.Avalonia.dll",
+        "lib/netcoreapp3.1/AnimatedImage.Avalonia.xml",
+        "lib/netcoreapp3.1/AnimatedImage.dll",
+        "lib/netcoreapp3.1/AnimatedImage.xml"
+      ]
+    },
     "Avalonia/11.0.10": {
       "sha512": "EH1FyD1SA7G/TfLmb7JKQlZiOBqr6VzttJMtA5Hnc/c1623zJej0PRuQlqn8Ad6qWKorrKEypBGA9Gye3uWDrA==",
       "type": "package",
@@ -4403,6 +4449,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AnimatedImage.Avalonia >= 1.0.7",
       "Avalonia >= 11.0.10",
       "Avalonia.Desktop >= 11.0.10",
       "Avalonia.Diagnostics >= 11.0.10",
@@ -4453,6 +4500,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AnimatedImage.Avalonia": {
+            "target": "Package",
+            "version": "[1.0.7, )"
+          },
           "Avalonia": {
             "target": "Package",
             "version": "[11.0.10, )"

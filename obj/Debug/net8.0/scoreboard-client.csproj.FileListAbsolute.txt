@@ -124,3 +124,7 @@
 /Users/denisdavydov/chernikov/scoreboard-client/obj/Debug/net8.0/scoreboa.4CF0339D.Up2Date
 /Users/denisdavydov/chernikov/scoreboard-client/obj/Debug/net8.0/scoreboard-client.genruntimeconfig.cache
 /Users/denisdavydov/chernikov/scoreboard-client/obj/Debug/net8.0/ref/scoreboard-client.dll
+/Users/denisdavydov/chernikov/scoreboard-client/bin/Debug/net8.0/AnimatedImage.Avalonia.dll
+/Users/denisdavydov/chernikov/scoreboard-client/bin/Debug/net8.0/AnimatedImage.dll
+/Users/denisdavydov/chernikov/scoreboard-client/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/denisdavydov/chernikov/scoreboard-client/obj/Debug/net8.0/scoreboard-client.sourcelink.json
