@@ -44,7 +44,7 @@ public class UdpTcpClient
 
     private async Task BroadcastConnectionInfo()
     {
-        IPEndPoint ipEndPoint = new IPEndPoint(IPAddress.Broadcast, udpPort);
+        IPEndPoint ipEndPoint = new IPEndPoint(IPAddress.Parse("192.168.88.255"), udpPort);
         udpClient.EnableBroadcast = true;
         Console.WriteLine("111");
         
@@ -52,7 +52,7 @@ public class UdpTcpClient
         IPHostEntry ip = Dns.GetHostEntry(host);
         string IP="";
         foreach (IPAddress ip1 in ip.AddressList){
-            if (ip1.ToString().Contains("192.168.88.253")){
+            if (ip1.ToString().Contains("192.168.88.249")){
                 IP = ip1.ToString();
             }
         }
@@ -102,11 +102,13 @@ public class UdpTcpClient
 
                     string receivedMessage = Encoding.UTF8.GetString(buffer);
                     Console.WriteLine(receivedMessage);
-
-                    ClientServerMessage? message = JsonConvert.DeserializeObject<ClientServerMessage>(receivedMessage);
-                    Console.WriteLine(message.CommandOne.Name);
-                    if (message != null) ParseNewEvent(message);
-                    
+                    try {
+                        ClientServerMessage? message = JsonConvert.DeserializeObject<ClientServerMessage>(receivedMessage);
+                        Console.WriteLine(message.CommandOne.Name);
+                        if (message != null) ParseNewEvent(message);
+                    } catch (Exception ex) {
+                        continue;
+                    }
                 }
                 await Task.Delay(100);
             }
